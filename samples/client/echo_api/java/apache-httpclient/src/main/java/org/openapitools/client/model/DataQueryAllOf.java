@@ -22,7 +22,6 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.JsonValue;
 import java.time.OffsetDateTime;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
-import com.fasterxml.jackson.annotation.JsonTypeName;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 import java.util.StringJoiner;
@@ -35,7 +34,6 @@ import java.util.StringJoiner;
   DataQueryAllOf.JSON_PROPERTY_TEXT,
   DataQueryAllOf.JSON_PROPERTY_DATE
 })
-@JsonTypeName("DataQuery_allOf")
 @javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class DataQueryAllOf {
   public static final String JSON_PROPERTY_SUFFIX = "suffix";
